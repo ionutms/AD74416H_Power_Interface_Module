@@ -1,0 +1,3 @@
+[submodule "ad74416h_power_interface_module/KiCAD_Symbols_Generator"]
+	path = ad74416h_power_interface_module/KiCAD_Symbols_Generator
+	url = https://github.com/ionutms/KiCAD_Symbols_Generator.git
