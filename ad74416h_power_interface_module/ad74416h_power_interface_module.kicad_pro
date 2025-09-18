@@ -640,6 +640,10 @@
     [
       "77c31fce-5dda-4017-bb4a-d31be1dfb2ec",
       "Root"
+    ],
+    [
+      "42d82ddb-32a5-433c-8158-6d8156dd44f8",
+      "Power_Supply_and_Digital_Interface"
     ]
   ],
   "text_variables": {}
