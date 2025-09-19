@@ -24,21 +24,21 @@ Key features of this module include:
 
 ```
 ad74416h_power_interface_module/
-├── ad74416h_power_interface_module.kicad_pro      # Project configuration file
-├── ad74416h_power_interface_module.kicad_sch      # Main schematic file
-├── ad74416h_power_interface_module.kicad_pcb      # PCB layout file
-├── fp-lib-table                                   # Footprint library table
-├── sym-lib-table                                  # Symbol library table
-├── docs/                                          # Documentation files
-│   ├── bom/                                       # Bill of Materials
-│   │   └── ad74416h_power_interface_module_ibom.html # Interactive BOM file
-│   ├── pictures/                                  # Images and photos
-│   │   ├── 1_ad74416h_power_interface_module_side.png   # Side view of PCB
-│   │   ├── 2_ad74416h_power_interface_module_top.png    # Top view of PCB
-│   │   └── 3_ad74416h_power_interface_module_bottom.png # Bottom view of PCB
-│   └── schematics/                                # Schematic PDF exports
-│       └── ad74416h_power_interface_module_schematics.pdf # Complete schematics PDF
-└── KiCAD_Symbols_Generator/                       # Submodule for symbol generation from CSV data
+├── ad74416h_power_interface_module.kicad_pro               # Project configuration file
+├── ad74416h_power_interface_module.kicad_sch               # Main schematic file
+├── ad74416h_power_interface_module.kicad_pcb               # PCB layout file
+├── fp-lib-table                                            # Footprint library table
+├── sym-lib-table                                           # Symbol library table
+├── docs/                                                   # Documentation files
+│   ├── bom/                                                # Bill of Materials
+│   │   └── ad74416h_power_interface_module_ibom.html       # Interactive BOM file
+│   ├── pictures/                                           # Images and photos
+│   │   ├── 1_ad74416h_power_interface_module_side.png      # Side view of PCB
+│   │   ├── 2_ad74416h_power_interface_module_top.png       # Top view of PCB
+│   │   └── 3_ad74416h_power_interface_module_bottom.png    # Bottom view of PCB
+│   └── schematics/                                         # Schematic PDF exports
+│       └── ad74416h_power_interface_module_schematics.pdf  # Complete schematics PDF
+└── KiCAD_Symbols_Generator/                                # Submodule for symbol generation from CSV data
 ```
 
 ## Project Features
