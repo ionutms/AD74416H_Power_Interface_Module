@@ -5,6 +5,451 @@
 	(uuid "77c31fce-5dda-4017-bb4a-d31be1dfb2ec")
 	(paper "A3")
 	(lib_symbols
+		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-06-03-G-D-085-155"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-06-03-G-D-085-155"
+				(at 5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-06-03-G-D-085-155"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  6 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-06-03-G-D-085-155"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "6"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-03-G-D-085-155"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-06-03-G-D-085-155"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-06-03-G-D-085-155"
+				(at 5.08 -50.8 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -53.34 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-06-03-G-D-085-155_0_0"
+				(pin unspecified line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FW-06-03-G-D-085-155_1_0"
+				(rectangle
+					(start -2.54 8.89)
+					(end 2.54 -8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-17-03-G-D-085-155"
 			(pin_names
 				(offset 0.254)
@@ -2691,7 +3136,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-200mil"
+		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-300mil"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2708,7 +3153,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "mouse-bite-50mil-200mil"
+			(property "Value" "mouse-bite-50mil-300mil"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2718,7 +3163,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-200mil"
+			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-300mil"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2746,7 +3191,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "mouse-bite-50mil-200mil_1_1"
+			(symbol "mouse-bite-50mil-300mil_1_1"
 				(arc
 					(start -9.9097 2.54)
 					(mid -7.6077 0)
@@ -2841,7 +3286,170 @@
 						(type none)
 					)
 				)
-				(text "200 mill"
+				(text "300 mill"
+					(at 0.254 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.254)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-400mil"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MB"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "mouse-bite-50mil-400mil"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-400mil"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mouse-bite-50mil-400mil_1_1"
+				(arc
+					(start -9.9097 2.54)
+					(mid -7.6077 0)
+					(end -9.9097 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -9.9097 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.096 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 3.81) (xy -8.382 3.81) (xy -8.382 4.572) (xy -9.906 3.81) (xy -8.382 3.048) (xy -8.382 3.81)
+						(xy -7.366 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 3.81) (xy 8.89 3.81) (xy 8.89 3.048) (xy 10.414 3.81) (xy 8.89 4.572) (xy 8.89 3.81)
+						(xy 7.874 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.604 1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.414 -2.54)
+					(mid 8.1117 0)
+					(end 10.414 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "400 mill"
 					(at 0.254 3.81 0)
 					(effects
 						(font
@@ -3011,6 +3619,98 @@
 							(size 1.27 1.27)
 							(thickness 0.254)
 							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "UNITED_TEST_POINTS:TestPoint_Castelated_v2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Castelated_v2_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
@@ -3358,16 +4058,34 @@
 		(uuid "23079578-c5ae-4d91-b23d-7544419a14b4")
 	)
 	(junction
+		(at 297.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2697b84a-2f01-4462-908b-8b875347ba2c")
+	)
+	(junction
 		(at 312.42 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ed0bfc2-0c15-4fc4-8bbd-92378efec267")
 	)
 	(junction
+		(at 312.42 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303180a2-8a68-43bd-90b9-467e206c7683")
+	)
+	(junction
 		(at 312.42 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "399f86b3-9984-424f-a4ef-1eaf18358a7b")
+	)
+	(junction
+		(at 312.42 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46d23b8f-325e-4c45-8b6c-3f547bdf9037")
 	)
 	(junction
 		(at 297.18 185.42)
@@ -3392,6 +4110,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66255f89-c9de-44b0-8eeb-1903c0624036")
+	)
+	(junction
+		(at 93.98 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67a35e0a-f993-4808-a134-d635d4976804")
+	)
+	(junction
+		(at 109.22 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70c3e795-0203-4730-9d72-5135dc1c565f")
 	)
 	(junction
 		(at 312.42 162.56)
@@ -3448,6 +4178,12 @@
 		(uuid "cdef3037-8668-4989-b45c-ec4509e37e81")
 	)
 	(junction
+		(at 93.98 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d33194df-9756-40e9-8e15-438b2c914f75")
+	)
+	(junction
 		(at 312.42 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3478,6 +4214,24 @@
 		(uuid "d96df7d5-0700-4b7c-a824-c4685274c3d0")
 	)
 	(junction
+		(at 297.18 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b7f10a-47f4-4a88-bd90-1d03b4d7405c")
+	)
+	(junction
+		(at 109.22 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee69659-bb47-452c-8bb7-d9081dfb36a8")
+	)
+	(junction
+		(at 297.18 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3e6ecf0-f0e6-45dc-90c3-8a3053afec7d")
+	)
+	(junction
 		(at 312.42 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3488,6 +4242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd507782-eb8c-495e-be5d-b97f0f2b1aac")
+	)
+	(junction
+		(at 93.98 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feae1580-2cb2-4d52-a779-de3efbdae414")
 	)
 	(junction
 		(at 297.18 187.96)
@@ -4205,6 +4965,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 63.5) (xy 312.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039a9f9f-6528-446e-a89f-52ad7d6d2873")
+	)
+	(wire
+		(pts
 			(xy 309.88 182.88) (xy 322.58 182.88)
 		)
 		(stroke
@@ -4265,6 +5035,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 63.5) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0939bd60-d2d1-4370-bfca-34c9ed093174")
+	)
+	(wire
+		(pts
 			(xy 312.42 162.56) (xy 312.42 157.48)
 		)
 		(stroke
@@ -4272,6 +5052,16 @@
 			(type default)
 		)
 		(uuid "0957956c-8003-40fe-ad8f-c01fe6fb277a")
+	)
+	(wire
+		(pts
+			(xy 287.02 66.04) (xy 297.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a20a5bb-49ee-4648-a5dc-96690ee35171")
 	)
 	(bus
 		(pts
@@ -4295,6 +5085,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 66.04) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd12107-ce74-44bc-a5ba-9d6e245fba81")
+	)
+	(wire
+		(pts
+			(xy 297.18 68.58) (xy 299.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f98578-f2ab-4ea1-af2a-3de82df3db9e")
+	)
+	(wire
+		(pts
 			(xy 281.94 160.02) (xy 299.72 160.02)
 		)
 		(stroke
@@ -4302,6 +5112,26 @@
 			(type default)
 		)
 		(uuid "1274f2bc-f945-4000-a85a-8236bae5d26d")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1314c5ed-4062-4a55-bf83-00264c33a3df")
+	)
+	(wire
+		(pts
+			(xy 109.22 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132d6614-95fc-431f-9c34-bbfdd5fc3bec")
 	)
 	(wire
 		(pts
@@ -4435,6 +5265,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 58.42) (xy 312.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0fb8e2-3f26-476a-8824-598442299e49")
+	)
+	(wire
+		(pts
 			(xy 297.18 157.48) (xy 299.72 157.48)
 		)
 		(stroke
@@ -4532,6 +5372,16 @@
 			(type default)
 		)
 		(uuid "29ecde0c-83b3-4a52-a71d-968141fa3c67")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 109.22 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c30eacc-7a98-40fb-a528-8fb4983cfd82")
 	)
 	(wire
 		(pts
@@ -4653,6 +5503,16 @@
 		)
 		(uuid "358572f8-1533-4a50-b057-8170a802fbd9")
 	)
+	(wire
+		(pts
+			(xy 309.88 63.5) (xy 312.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361db4e0-29d4-442f-85df-ea6a74220b83")
+	)
 	(bus
 		(pts
 			(xy 127 147.32) (xy 127 149.86)
@@ -4662,6 +5522,26 @@
 			(type default)
 		)
 		(uuid "3771abf8-eeb8-4dc1-8d11-6a9228fc4a15")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37baf00f-71ce-4be0-9c2e-a42cba37549c")
+	)
+	(wire
+		(pts
+			(xy 287.02 60.96) (xy 299.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e8880c-0f00-4322-abda-b2f7eece96dc")
 	)
 	(bus
 		(pts
@@ -4873,6 +5753,16 @@
 		)
 		(uuid "4cac7da8-0cb2-4391-8e11-5a608d6354a4")
 	)
+	(wire
+		(pts
+			(xy 309.88 55.88) (xy 312.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccbcfb8-cb81-4bc8-9db6-8ef66e488167")
+	)
 	(bus
 		(pts
 			(xy 127 162.56) (xy 127 170.18)
@@ -4912,6 +5802,16 @@
 			(type default)
 		)
 		(uuid "4fb392cb-901c-4458-bdd8-866a3640bb29")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50babf92-5c73-4aee-bae4-7413cb08e6f9")
 	)
 	(wire
 		(pts
@@ -5023,6 +5923,16 @@
 		)
 		(uuid "5c45f187-29e0-4720-b38a-b600fe97861d")
 	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 96.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cabd2ba-666f-4deb-ab7d-3bf6c7f5ce82")
+	)
 	(bus
 		(pts
 			(xy 76.2 127) (xy 76.2 129.54)
@@ -5032,6 +5942,16 @@
 			(type default)
 		)
 		(uuid "5d8c2a15-3db9-4ddd-a8a8-681f16535f2f")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0f0d6c-d3f7-4d3d-a6bd-83aa63056a61")
 	)
 	(bus
 		(pts
@@ -5043,6 +5963,16 @@
 		)
 		(uuid "5ebb71fa-9bf6-4895-8e9a-b73b231c9509")
 	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1526fc-3e6a-4109-b17f-2c4856819e9d")
+	)
 	(bus
 		(pts
 			(xy 76.2 152.4) (xy 76.2 154.94)
@@ -5052,6 +5982,26 @@
 			(type default)
 		)
 		(uuid "5f6b6aa7-f38a-41c2-9073-4af83e994fa9")
+	)
+	(wire
+		(pts
+			(xy 312.42 66.04) (xy 312.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fadb7db-e47e-44e5-8ade-879d6ea5f12f")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ca63ce-59ee-49ca-b977-656116b02228")
 	)
 	(wire
 		(pts
@@ -5112,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "6380ec1f-43c5-46e9-8706-2080058be577")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e6bf5b-9cce-46ed-8d72-6faa9c2ab52c")
 	)
 	(wire
 		(pts
@@ -5185,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 60.96) (xy 312.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef3b412-1831-41cb-8dae-5fff41dbeb9e")
+	)
+	(wire
+		(pts
 			(xy 287.02 127) (xy 299.72 127)
 		)
 		(stroke
@@ -5192,6 +6162,16 @@
 			(type default)
 		)
 		(uuid "6efd4729-9e61-4139-9056-a2f322778eed")
+	)
+	(wire
+		(pts
+			(xy 287.02 58.42) (xy 299.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1a4299-a97b-4983-ada8-2a6b6b4c5f34")
 	)
 	(bus
 		(pts
@@ -5295,6 +6275,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 55.88) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab30d83-7ec2-4019-9538-fe1de37c65ec")
+	)
+	(wire
+		(pts
 			(xy 78.74 160.02) (xy 96.52 160.02)
 		)
 		(stroke
@@ -5315,6 +6305,26 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 66.04) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2c85d4-8c5d-4fe2-afce-fba9b28f9449")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3561c3-12fa-4ab6-9e5e-d74a3e61c49a")
+	)
+	(wire
+		(pts
 			(xy 297.18 193.04) (xy 299.72 193.04)
 		)
 		(stroke
@@ -5332,6 +6342,26 @@
 			(type default)
 		)
 		(uuid "820185a0-627f-4a29-b890-96bd1aad36a6")
+	)
+	(wire
+		(pts
+			(xy 287.02 55.88) (xy 299.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82781fdb-7ca5-4dbe-9edc-f11d34f0d6a6")
+	)
+	(wire
+		(pts
+			(xy 297.18 63.5) (xy 297.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82adc1f9-071a-44e7-89cb-86fe21796898")
 	)
 	(wire
 		(pts
@@ -5372,6 +6402,16 @@
 			(type default)
 		)
 		(uuid "86abf24a-db9e-4912-849b-8aae4c5c1d21")
+	)
+	(wire
+		(pts
+			(xy 106.68 63.5) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e9e6b5-b86a-4135-82fa-6920aa7c3d57")
 	)
 	(bus
 		(pts
@@ -5563,6 +6603,26 @@
 		)
 		(uuid "9f202f65-4f77-4487-a706-8949aadc3727")
 	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0415224-4fe2-491e-935f-369ff471138d")
+	)
+	(wire
+		(pts
+			(xy 312.42 69.85) (xy 312.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d897c6-071f-417c-86b6-9147bf11d97f")
+	)
 	(bus
 		(pts
 			(xy 127 86.36) (xy 177.8 86.36)
@@ -5595,6 +6655,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 66.04) (xy 299.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a574d327-2635-46fd-ac14-23c3b2cd2032")
+	)
+	(wire
+		(pts
 			(xy 297.18 162.56) (xy 297.18 157.48)
 		)
 		(stroke
@@ -5622,6 +6692,26 @@
 			(type default)
 		)
 		(uuid "a87fb493-5b40-483a-9142-902dca8746df")
+	)
+	(wire
+		(pts
+			(xy 312.42 68.58) (xy 309.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b50292-3740-401b-a96d-38940b6d5ed1")
+	)
+	(wire
+		(pts
+			(xy 86.36 60.96) (xy 96.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c29cda-4ede-4311-8975-95ae6a9c6662")
 	)
 	(bus
 		(pts
@@ -5783,6 +6873,26 @@
 		)
 		(uuid "bd872989-4b39-4a22-a8af-ac4039ae2506")
 	)
+	(wire
+		(pts
+			(xy 86.36 68.58) (xy 93.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa064e3-c369-424d-a4d9-e77f598a0b57")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffd92f9-d254-4f0d-8b5f-a7132dc2d101")
+	)
 	(bus
 		(pts
 			(xy 325.12 139.7) (xy 325.12 142.24)
@@ -5852,6 +6962,16 @@
 			(type default)
 		)
 		(uuid "ce7941e2-28ee-460b-9502-358a9361920a")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 96.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1be216-a7aa-4417-ab28-1d90122750d0")
 	)
 	(wire
 		(pts
@@ -5953,6 +7073,16 @@
 		)
 		(uuid "d6239cd7-5a69-4f3f-a0cb-fd439f60e978")
 	)
+	(wire
+		(pts
+			(xy 297.18 68.58) (xy 297.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66a3312-bfb8-4451-95cd-5b38fc2929d7")
+	)
 	(bus
 		(pts
 			(xy 127 127) (xy 127 86.36)
@@ -6002,6 +7132,16 @@
 			(type default)
 		)
 		(uuid "dd4422af-5159-4d87-a42e-9ac7d3e9faf6")
+	)
+	(wire
+		(pts
+			(xy 287.02 68.58) (xy 297.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df66946d-7f86-4eec-a17c-fd5a54d21514")
 	)
 	(bus
 		(pts
@@ -6055,6 +7195,26 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 63.5) (xy 297.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c733ff-3b45-4c49-a3e3-321b4551b124")
+	)
+	(wire
+		(pts
+			(xy 309.88 66.04) (xy 312.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ff83e2-6fbb-4b91-8803-e1d5ec04c20f")
+	)
+	(wire
+		(pts
 			(xy 297.18 200.66) (xy 299.72 200.66)
 		)
 		(stroke
@@ -6073,6 +7233,16 @@
 		)
 		(uuid "e6ed615f-9fc3-4c5b-9b21-1de6291da200")
 	)
+	(wire
+		(pts
+			(xy 96.52 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e837d368-0541-4f60-96f8-7624336d4e81")
+	)
 	(bus
 		(pts
 			(xy 279.4 157.48) (xy 279.4 165.1)
@@ -6082,6 +7252,16 @@
 			(type default)
 		)
 		(uuid "e8fb3e48-d9e0-4703-b4e5-c3af4517de79")
+	)
+	(wire
+		(pts
+			(xy 299.72 63.5) (xy 297.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92c08ef-b763-4c38-b44d-ab6508774df8")
 	)
 	(wire
 		(pts
@@ -6313,6 +7493,16 @@
 		)
 		(uuid "03a42254-4f81-4e04-8f81-3dfe23f397b9")
 	)
+	(label "VINP"
+		(at 93.98 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05ceff5f-a125-4105-8a7f-b00d4afe1c82")
+	)
 	(label "SDI_ISO"
 		(at 91.44 127 180)
 		(effects
@@ -6333,6 +7523,16 @@
 		)
 		(uuid "0ecb0c75-e3e9-4507-b716-7aabce55adaf")
 	)
+	(label "VINP"
+		(at 93.98 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10e4dfa0-6abf-41cb-aaa0-3a98ce94f57f")
+	)
 	(label "3V3"
 		(at 294.64 160.02 180)
 		(effects
@@ -6352,6 +7552,16 @@
 			(justify right bottom)
 		)
 		(uuid "185a96c7-4d93-4e2d-b3de-f9c4183aa771")
+	)
+	(label "DO_VDD"
+		(at 312.42 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bf9b2d5-dfe8-418c-878e-943b4cdcd03e")
 	)
 	(label "5V0"
 		(at 314.96 175.26 0)
@@ -6473,6 +7683,16 @@
 		)
 		(uuid "336c656e-d0f2-43c1-a282-b8831041aed2")
 	)
+	(label "DO_VDD"
+		(at 297.18 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "353dc42c-21ee-466a-bc9d-f46821441ff6")
+	)
 	(label "-15V0"
 		(at 314.96 167.64 0)
 		(effects
@@ -6563,6 +7783,26 @@
 		)
 		(uuid "4f6d7bd5-f39f-41e7-9472-c605725e6a30")
 	)
+	(label "VINP"
+		(at 109.22 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56724d59-2086-4a20-af8a-cd497ed26c37")
+	)
+	(label "DO_VDD"
+		(at 312.42 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "576f0c69-3185-43c7-bc8b-d1cbd737627d")
+	)
 	(label "PWRGD"
 		(at 91.44 124.46 180)
 		(effects
@@ -6622,6 +7862,26 @@
 			(justify left bottom)
 		)
 		(uuid "6141de80-df45-4863-94a2-c2eb9fba8c30")
+	)
+	(label "DO_VDD"
+		(at 297.18 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "666f4e8a-8b9b-4a2f-99ce-c2b73062e0b7")
+	)
+	(label "VINP"
+		(at 93.98 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "699932a8-b3f9-458c-9c98-0aa27555481c")
 	)
 	(label "MVDD"
 		(at 91.44 119.38 0)
@@ -6853,6 +8113,16 @@
 		)
 		(uuid "b1f88f2c-bbab-41df-9dd8-a5bf0723a9a1")
 	)
+	(label "DO_VDD"
+		(at 297.18 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b355d8bb-0f80-4854-835a-ec3ced5bd405")
+	)
 	(label "1B1_ISO"
 		(at 91.44 154.94 180)
 		(effects
@@ -6993,6 +8263,16 @@
 		)
 		(uuid "e3cd4d4a-2389-47ee-a3f7-ef711f90d980")
 	)
+	(label "VINP"
+		(at 109.22 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea24cdc3-398e-4abb-8365-2bfa0e1af198")
+	)
 	(label "SCLK"
 		(at 294.64 134.62 180)
 		(effects
@@ -7063,6 +8343,16 @@
 		)
 		(uuid "f44edf17-4cf0-4c97-8714-491259dc27c1")
 	)
+	(label "VINP"
+		(at 109.22 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7f73afb-62a9-46d1-9f46-9474828bec8c")
+	)
 	(label "SDA"
 		(at 314.96 182.88 0)
 		(effects
@@ -7082,6 +8372,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc07a584-afda-482f-aa31-96625cca5104")
+	)
+	(label "DO_VDD"
+		(at 312.42 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe8a690d-371c-483a-85a3-7ee90c752d0e")
 	)
 	(symbol
 		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-17-03-G-D-085-155")
@@ -7402,6 +8702,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04529a91-5d2d-4829-ba49-5533151360b6")
+		(property "Reference" "TP60"
+			(at 85.3824 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4d4327-a710-4e60-aa1e-0f3f0ccb8b4c")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP60")
 					(unit 1)
 				)
 			)
@@ -7961,7 +9331,144 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-200mil")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dea0ad7-8a4a-4ca3-86c9-f1c4e10b6b45")
+		(property "Reference" "TP70"
+			(at 285.75 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "598a6add-c26b-4127-a311-a76fc608f5c9")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9f7fa1-65b8-4a86-adf4-661fc06b8c8d")
+		(property "Reference" "#PWR023"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f0c660-b193-4088-aba6-454f158ec06f")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-300mil")
 		(at 101.6 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7980,7 +9487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "mouse-bite-50mil-200mil"
+		(property "Value" "mouse-bite-50mil-300mil"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -7990,7 +9497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-200mil"
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-300mil"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -8256,6 +9763,144 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "516d8d76-982e-4aa1-b682-7aeaf9737236")
+		(property "Reference" "TP53"
+			(at 285.75 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087c79f0-0639-4590-bd88-6d0f1b54710f")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 312.42 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c95736-f8dd-406d-a0ad-6bfe7b04a42a")
+		(property "Reference" "#PWR025"
+			(at 312.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 314.96 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 312.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58aa187a-4a11-4cb9-9caa-1fd0c8b85a12")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONNECTORS_TBP02R1-381_DATA_BASE:J_TBP02R1-381-02BE")
 		(at 304.8 95.25 0)
 		(unit 1)
@@ -8486,7 +10131,78 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-200mil")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72f72f84-8858-4b6a-bb33-85372520a923")
+		(property "Reference" "TP64"
+			(at 85.09 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 81.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c31ee29d-abb9-4ef5-8880-e08902ae8ada")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-300mil")
 		(at 304.8 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -8506,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "mouse-bite-50mil-200mil"
+		(property "Value" "mouse-bite-50mil-300mil"
 			(at 304.8 114.3 0)
 			(effects
 				(font
@@ -8516,7 +10232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-200mil"
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-300mil"
 			(at 304.8 111.76 0)
 			(effects
 				(font
@@ -8548,6 +10264,77 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "MB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "871e1eae-b354-4317-a695-9db71f33aa09")
+		(property "Reference" "TP69"
+			(at 285.75 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55565b33-3ee3-4277-b7cc-d675080027e6")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP69")
 					(unit 1)
 				)
 			)
@@ -8687,6 +10474,148 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893e6be0-0deb-4251-8cef-153479113e4b")
+		(property "Reference" "TP54"
+			(at 285.75 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d910fc-5d9b-44f1-b328-b07bf5609563")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e5d8646-ff8f-4b36-a838-42645dce874f")
+		(property "Reference" "TP58"
+			(at 85.09 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c1bbe4-c32f-48cd-af43-eb6eb2ed09dc")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 312.42 201.93 0)
 		(mirror y)
@@ -8748,6 +10677,731 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "#PWR117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5a337b5-22ef-4ec9-b65a-2e3b7e34a39a")
+		(property "Reference" "TP59"
+			(at 85.09 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054d89d6-181c-43c5-bb53-63e16d445ef7")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-06-03-G-D-085-155")
+		(at 101.6 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f051a9-e454-48e4-bb81-cee319d07eb4")
+		(property "Reference" "J5"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FW-06-03-G-D-085-155"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-06-03-G-D-085-155"
+			(at 106.68 74.93 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(at 106.68 77.47 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  6 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 106.68 80.01 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 106.68 82.55 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 106.68 85.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 106.68 87.63 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-06-03-G-D-085-155"
+			(at 106.68 90.17 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 106.68 92.71 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 106.68 95.25 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 106.68 97.79 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 106.68 100.33 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "6"
+			(at 106.68 102.87 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 106.68 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-03-G-D-085-155"
+			(at 106.68 107.95 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-06-03-G-D-085-155"
+			(at 106.68 110.49 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-06-03-G-D-085-155"
+			(at 106.68 113.03 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 106.68 115.57 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8084d535-14e7-4345-9c72-20464946a00e")
+		)
+		(pin "7"
+			(uuid "2e27bff1-8180-44ac-9ed6-b8afcf7b4886")
+		)
+		(pin "4"
+			(uuid "e3ae1915-29ab-4ed2-b932-cbe19c0f3862")
+		)
+		(pin "6"
+			(uuid "adc06936-0474-462c-91f9-18dc998738a3")
+		)
+		(pin "1"
+			(uuid "694b0aa1-c1a8-4fd5-98e9-85adca0a2ef1")
+		)
+		(pin "2"
+			(uuid "46cd8448-e418-43bf-870a-707b2aa39498")
+		)
+		(pin "8"
+			(uuid "b43e7ae7-b83f-44d0-b912-fba92c0d96e9")
+		)
+		(pin "5"
+			(uuid "a4e83689-33ea-4980-9253-f51bc18a6778")
+		)
+		(pin "9"
+			(uuid "364fc0c8-fa3c-4f1c-9db5-7ab146ad1ce9")
+		)
+		(pin "11"
+			(uuid "44e8fb09-e491-4e37-824a-f950a95fd24e")
+		)
+		(pin "10"
+			(uuid "6042d824-bfc9-470d-aaee-22ecf655237f")
+		)
+		(pin "12"
+			(uuid "8c03cf53-1abb-4f34-aa98-c47651788e7f")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 297.18 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba04de5c-0fab-4b88-be85-eaf85d1567d2")
+		(property "Reference" "#PWR04"
+			(at 297.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 294.64 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 297.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef7729eb-dfd5-4a45-b878-c240068fb5e8")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be73ed21-7bd2-497c-b131-d4694b1a6e7c")
+		(property "Reference" "TP68"
+			(at 285.75 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eea2b18-4e3f-45a7-b62d-8a1ce67b59b9")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-06-03-G-D-085-155")
+		(at 304.8 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cceed6c7-b088-472e-92bf-d8da21740e30")
+		(property "Reference" "J6"
+			(at 304.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FW-06-03-G-D-085-155"
+			(at 304.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:FW-06-03-G-D-085-155"
+			(at 309.88 49.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(at 309.88 46.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  6 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(at 309.88 44.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 309.88 41.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Gold"
+			(at 309.88 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 309.88 36.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FW-06-03-G-D-085-155"
+			(at 309.88 34.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 309.88 31.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 309.88 29.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 309.88 26.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 309.88 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "6"
+			(at 309.88 21.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 309.88 19.05 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "FW-xx-03-G-D-085-155"
+			(at 309.88 16.51 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_FW-06-03-G-D-085-155"
+			(at 309.88 13.97 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-06-03-G-D-085-155"
+			(at 309.88 11.43 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 309.88 8.89 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51585471-accf-4047-ab19-a5dadb419ad2")
+		)
+		(pin "7"
+			(uuid "27a3fa39-f191-4885-9671-65be35b2c8de")
+		)
+		(pin "4"
+			(uuid "e429d635-f630-4143-9709-8e0de59f876c")
+		)
+		(pin "6"
+			(uuid "1fe74424-2cd2-409d-8d71-82d70892a6d7")
+		)
+		(pin "1"
+			(uuid "78c45058-4e8b-4de6-b096-4f9853876c0e")
+		)
+		(pin "2"
+			(uuid "b08294e2-1b61-49e3-a701-d695556fae8d")
+		)
+		(pin "8"
+			(uuid "552a5256-0009-4535-8197-74da41574d19")
+		)
+		(pin "5"
+			(uuid "3255685a-1b1c-4dcf-9b10-5098efafd2e6")
+		)
+		(pin "9"
+			(uuid "69186309-d1cc-4d9b-a197-b572155cf340")
+		)
+		(pin "11"
+			(uuid "9b3c0e96-24cb-4509-b348-75965c97917c")
+		)
+		(pin "10"
+			(uuid "08a4da27-a861-4586-9147-896363958d1e")
+		)
+		(pin "12"
+			(uuid "2543ba20-38bd-4ab5-affa-450fb7303009")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8821,7 +11475,74 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-200mil")
+		(lib_id "power:GND")
+		(at 109.22 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2a71165-96b1-4563-892f-a367403e38b7")
+		(property "Reference" "#PWR015"
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab08474-d49c-4411-a57a-5f24a8960490")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-400mil")
 		(at 304.8 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -8841,7 +11562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "mouse-bite-50mil-200mil"
+		(property "Value" "mouse-bite-50mil-400mil"
 			(at 304.8 93.98 0)
 			(effects
 				(font
@@ -8851,7 +11572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-200mil"
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-400mil"
 			(at 304.8 91.44 0)
 			(effects
 				(font
@@ -8889,7 +11610,78 @@
 		)
 	)
 	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-200mil")
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 287.02 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6c5bba9-7091-4fec-adbc-a2a11094656d")
+		(property "Reference" "TP67"
+			(at 285.75 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 284.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 284.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 284.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bf0b22-1e32-42b2-a8fc-6d348be9db32")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-400mil")
 		(at 101.6 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8908,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "mouse-bite-50mil-200mil"
+		(property "Value" "mouse-bite-50mil-400mil"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -8918,7 +11710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-200mil"
+		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-400mil"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -8950,6 +11742,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "MB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f02765a7-3822-4873-b2d5-94e069443f37")
+		(property "Reference" "TP55"
+			(at 85.3824 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7665c482-fbb1-4fc0-9328-b80bd6dc5297")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP55")
 					(unit 1)
 				)
 			)
@@ -9083,6 +11945,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "#PWR116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 86.36 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcc9f050-116a-467c-a8ea-ff93e43103a6")
+		(property "Reference" "TP63"
+			(at 85.3824 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85038590-88c1-4c34-9128-6f79eeb82ae0")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
+					(reference "TP63")
 					(unit 1)
 				)
 			)
