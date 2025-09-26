@@ -14729,6 +14729,15 @@
 		(uuid "e5e4633c-fe6e-40b5-b578-46138cabfd55")
 	)
 	(bus_entry
+		(at 381 152.4)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75ff0d1-d4a0-4942-b76e-fb173fd3a403")
+	)
+	(bus_entry
 		(at 200.66 251.46)
 		(size -2.54 2.54)
 		(stroke
@@ -14999,6 +15008,16 @@
 			(type default)
 		)
 		(uuid "0eaeb634-34be-43df-9b27-9237c890fe7a")
+	)
+	(wire
+		(pts
+			(xy 391.16 152.4) (xy 396.24 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1091322b-61e9-40fe-adc5-e640e00867f7")
 	)
 	(wire
 		(pts
@@ -15720,6 +15739,16 @@
 		)
 		(uuid "38af4070-484b-4649-9885-b02bbc74b4ea")
 	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 99.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393850ac-54f6-4400-8a31-4e6f9f4c4626")
+	)
 	(bus
 		(pts
 			(xy 200.66 223.52) (xy 200.66 251.46)
@@ -16172,6 +16201,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 149.86) (xy 396.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5416503d-65ef-4416-9d8b-d914b66edf86")
+	)
+	(wire
+		(pts
 			(xy 127 231.14) (xy 129.54 231.14)
 		)
 		(stroke
@@ -16469,6 +16508,16 @@
 			(type default)
 		)
 		(uuid "674a6473-53d8-4c56-94b2-0d780ee95d4d")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6767b61b-8cd1-440e-8931-3735bea66f14")
 	)
 	(wire
 		(pts
@@ -18212,7 +18261,7 @@
 	)
 	(bus
 		(pts
-			(xy 381 144.78) (xy 381 177.8)
+			(xy 381 144.78) (xy 381 152.4)
 		)
 		(stroke
 			(width 0)
@@ -18729,6 +18778,16 @@
 			(type default)
 		)
 		(uuid "fabd1eac-5c2f-4343-b953-65453b3a9b8e")
+	)
+	(bus
+		(pts
+			(xy 381 152.4) (xy 381 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb96627e-e1ec-40cb-88d4-0e203ecd5be9")
 	)
 	(wire
 		(pts
@@ -19810,6 +19869,16 @@
 		)
 		(uuid "e5435ddd-e959-4064-8733-8c218c441d09")
 	)
+	(label "VINP"
+		(at 96.52 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e614242f-132c-42c5-baaf-52975dbafc1b")
+	)
 	(label "SCL_ISO"
 		(at 71.12 195.58 180)
 		(effects
@@ -19869,6 +19938,16 @@
 			(justify right bottom)
 		)
 		(uuid "f490c1c8-bbe0-4814-a8f6-efce831cc855")
+	)
+	(label "DO_VDD"
+		(at 393.7 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4df7147-74ee-4466-9811-3bcc30b79078")
 	)
 	(label "SLEW"
 		(at 124.46 63.5 180)
@@ -21957,6 +22036,73 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
 					(reference "#PWR125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "233848a7-8468-4fc6-9902-c1a4d00d40e3")
+		(property "Reference" "#PWR03"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bfa72eb-53d6-4389-ad65-0435b71d2f7d")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -25115,6 +25261,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 396.24 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "516d8d76-982e-4aa1-b682-7aeaf9737236")
+		(property "Reference" "TP53"
+			(at 397.51 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 398.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 398.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 398.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087c79f0-0639-4590-bd88-6d0f1b54710f")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "TP53")
 					(unit 1)
 				)
 			)
@@ -31655,6 +31871,76 @@
 		)
 	)
 	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 396.24 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "893e6be0-0deb-4251-8cef-153479113e4b")
+		(property "Reference" "TP54"
+			(at 397.51 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 398.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 398.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 398.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9d910fc-5d9b-44f1-b328-b07bf5609563")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "TP54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 254 50.8 0)
 		(unit 1)
@@ -32055,6 +32341,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
 					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 99.06 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e5d8646-ff8f-4b36-a838-42645dce874f")
+		(property "Reference" "TP58"
+			(at 99.06 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c1bbe4-c32f-48cd-af43-eb6eb2ed09dc")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "TP58")
 					(unit 1)
 				)
 			)
@@ -38789,6 +39145,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 391.16 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4c8a834-8f27-4017-aa74-577f614363c2")
+		(property "Reference" "#PWR02"
+			(at 391.16 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 388.62 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 391.16 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce7e1e84-eaa2-421a-bc32-5f65984b82a6")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UNITED_CAPACITORS_DATA_BASE:C_GCM155R71H104KE02D")
 		(at 154.94 245.11 270)
 		(unit 1)
@@ -39195,6 +39617,76 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
 					(reference "#PWR104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UNITED_TEST_POINTS:TestPoint_Castelated_v2")
+		(at 99.06 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f02765a7-3822-4873-b2d5-94e069443f37")
+		(property "Reference" "TP55"
+			(at 98.0824 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "test_point_footprints:TestPoint_THTPad_Castelated"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7665c482-fbb1-4fc0-9328-b80bd6dc5297")
+		)
+		(instances
+			(project "ad74416h_power_interface_module"
+				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec/42d82ddb-32a5-433c-8158-6d8156dd44f8"
+					(reference "TP55")
 					(unit 1)
 				)
 			)
