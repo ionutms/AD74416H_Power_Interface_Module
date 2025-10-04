@@ -1219,7 +1219,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-33-03-G-D-085-155"
+		(symbol "CONNECTORS_FW-xx-03-G-D-150-160_DATA_BASE:J_FW-33-03-G-D-150-160"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1235,7 +1235,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FW-33-03-G-D-085-155"
+			(property "Value" "FW-33-03-G-D-150-160"
 				(at 5.08 -44.45 0)
 				(effects
 					(font
@@ -1244,7 +1244,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FW-33-03-G-D-085-155"
+			(property "Footprint" "connector_footprints:FW-33-03-G-D-150-160"
 				(at 5.08 -46.99 0)
 				(show_name)
 				(effects
@@ -1255,7 +1255,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*696njn*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0NzU3MTckbzkkZzEkdDE3NTk0Nzk3ODIkajYwJGwwJGgw"
 				(at 5.08 -49.53 0)
 				(show_name)
 				(effects
@@ -1266,7 +1266,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(property "Description" "Samtec FW-xx-03-G-D-150-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 				(at 5.08 -52.07 0)
 				(show_name)
 				(effects
@@ -1310,7 +1310,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FW-33-03-G-D-085-155"
+			(property "MPN" "FW-33-03-G-D-150-160"
 				(at 5.08 -62.23 0)
 				(show_name)
 				(effects
@@ -1387,7 +1387,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FW-xx-03-G-D-085-155"
+			(property "Series" "FW-xx-03-G-D-150-160"
 				(at 5.08 -80.01 0)
 				(show_name)
 				(effects
@@ -1398,7 +1398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FW-33-03-G-D-085-155"
+			(property "Symbol Name" "J_FW-33-03-G-D-150-160"
 				(at 5.08 -82.55 0)
 				(show_name)
 				(effects
@@ -1409,7 +1409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-03-G-D-085-155"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-03-G-D-150-160"
 				(at 5.08 -85.09 0)
 				(show_name)
 				(effects
@@ -1431,7 +1431,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FW-33-03-G-D-085-155_0_0"
+			(symbol "J_FW-33-03-G-D-150-160_0_0"
 				(pin unspecified line
 					(at -5.08 40.64 0)
 					(length 2.54)
@@ -2621,7 +2621,7 @@
 					)
 				)
 			)
-			(symbol "J_FW-33-03-G-D-085-155_1_0"
+			(symbol "J_FW-33-03-G-D-150-160_1_0"
 				(rectangle
 					(start -2.54 43.18)
 					(end 2.54 -43.18)
@@ -8405,7 +8405,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-33-03-G-D-085-155")
+		(lib_id "CONNECTORS_FW-xx-03-G-D-150-160_DATA_BASE:J_FW-33-03-G-D-150-160")
 		(at 304.8 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8422,7 +8422,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-33-03-G-D-085-155"
+		(property "Value" "FW-33-03-G-D-150-160"
 			(at 304.8 114.3 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-33-03-G-D-085-155"
+		(property "Footprint" "connector_footprints:FW-33-03-G-D-150-160"
 			(at 309.88 207.01 0)
 			(show_name yes)
 			(effects
@@ -8441,7 +8441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*696njn*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0NzU3MTckbzkkZzEkdDE3NTk0Nzk3ODIkajYwJGwwJGgw"
 			(at 309.88 209.55 0)
 			(show_name yes)
 			(effects
@@ -8452,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+		(property "Description" "Samtec FW-xx-03-G-D-150-160 series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 			(at 309.88 212.09 0)
 			(show_name yes)
 			(effects
@@ -8496,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-33-03-G-D-085-155"
+		(property "MPN" "FW-33-03-G-D-150-160"
 			(at 309.88 222.25 0)
 			(show_name yes)
 			(effects
@@ -8573,7 +8573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
+		(property "Series" "FW-xx-03-G-D-150-160"
 			(at 309.88 240.03 0)
 			(show_name yes)
 			(effects
@@ -8584,7 +8584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-33-03-G-D-085-155"
+		(property "Symbol Name" "J_FW-33-03-G-D-150-160"
 			(at 309.88 242.57 0)
 			(show_name yes)
 			(effects
@@ -8595,7 +8595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-03-G-D-085-155"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-33-03-G-D-150-160"
 			(at 309.88 245.11 0)
 			(show_name yes)
 			(effects
@@ -8952,73 +8952,6 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-300mil")
-		(at 101.6 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35143ea0-f542-4e05-8953-96ae3f2f9b01")
-		(property "Reference" "MB5"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "mouse-bite-50mil-300mil"
-			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-300mil"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
-					(reference "MB5")
 					(unit 1)
 				)
 			)
@@ -9617,74 +9550,6 @@
 			(project "ad74416h_power_interface_module"
 				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UNITED_MOUSE_BITES_DATA_BASE:mouse-bite-50mil-300mil")
-		(at 304.8 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "840c2dce-9493-417e-b660-d88e2a352a02")
-		(property "Reference" "MB6"
-			(at 304.8 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "mouse-bite-50mil-300mil"
-			(at 304.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mouse_bite_footprints:mouse-bite-50mil-300mil"
-			(at 304.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 304.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ad74416h_power_interface_module"
-				(path "/77c31fce-5dda-4017-bb4a-d31be1dfb2ec"
-					(reference "MB6")
 					(unit 1)
 				)
 			)
