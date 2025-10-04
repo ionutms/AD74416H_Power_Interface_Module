@@ -410,5 +410,3 @@ jobs:
               "ref": "${{ github.ref }}",
               "sha": "${{ github.sha }}"
             }
-              "sha": "${{ github.sha }}"
-            }
