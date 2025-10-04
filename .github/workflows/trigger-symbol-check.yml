@@ -1,0 +1,26 @@
+name: Trigger Symbol Generator Check
+
+on:
+  push:
+    paths:
+      - 'ad74416h_power_interface_module/docs/pictures/**'
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger KiCAD Symbols Generator workflow
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.REPO_DISPATCH_TOKEN }}" \
+            https://api.github.com/repos/ionutms/KiCAD_Symbols_Generator/dispatches \
+            -d '{
+              "event_type": "check_pictures",
+              "client_payload": {
+                "source_repo": "${{ github.repository }}",
+                "source_ref": "${{ github.sha }}",
+                "pictures_path": "ad74416h_power_interface_module/docs/pictures"
+              }
+            }'
