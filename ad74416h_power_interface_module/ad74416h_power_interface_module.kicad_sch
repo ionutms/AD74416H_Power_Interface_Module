@@ -5,380 +5,7 @@
 	(uuid "77c31fce-5dda-4017-bb4a-d31be1dfb2ec")
 	(paper "A3")
 	(lib_symbols
-		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-04-03-G-D-085-155"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FW-04-03-G-D-085-155"
-				(at 5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "connector_footprints:FW-04-03-G-D-085-155"
-				(at 5.08 -10.16 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
-				(at 5.08 -12.7 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
-				(at 5.08 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Color" "Black"
-				(at 5.08 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Contact Plating" "Gold"
-				(at 5.08 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Current Rating (A)" "5.2"
-				(at 5.08 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "FW-04-03-G-D-085-155"
-				(at 5.08 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samtec"
-				(at 5.08 -27.94 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounting Angle" "Vertical"
-				(at 5.08 -30.48 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounting Style" "Surface Mount"
-				(at 5.08 -33.02 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Number of Rows" "2"
-				(at 5.08 -35.56 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "4"
-				(at 5.08 -38.1 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pitch (mm)" "1.27"
-				(at 5.08 -40.64 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Series" "FW-xx-03-G-D-085-155"
-				(at 5.08 -43.18 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Symbol Name" "J_FW-04-03-G-D-085-155"
-				(at 5.08 -45.72 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-03-G-D-085-155"
-				(at 5.08 -48.26 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rating (V)" "300"
-				(at 5.08 -50.8 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "J_FW-04-03-G-D-085-155_0_0"
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "J_FW-04-03-G-D-085-155_1_0"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-17-03-G-D-085-155"
+		(symbol "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-117-02-G-D-BE"
 			(pin_names
 				(offset 0.254)
 			)
@@ -394,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FW-17-03-G-D-085-155"
+			(property "Value" "CLP-117-02-G-D-BE"
 				(at 5.08 -24.13 0)
 				(effects
 					(font
@@ -403,7 +30,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FW-17-03-G-D-085-155"
+			(property "Footprint" "connector_footprints:CLP-117-02-G-D-BE"
 				(at 5.08 -26.67 0)
 				(show_name)
 				(effects
@@ -414,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
 				(at 5.08 -29.21 0)
 				(show_name)
 				(effects
@@ -425,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  17 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  17 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 				(at 5.08 -31.75 0)
 				(show_name)
 				(effects
@@ -447,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "Contact Plating" "Gold"
+			(property "Contact Plating" "Tin"
 				(at 5.08 -36.83 0)
 				(show_name)
 				(effects
@@ -469,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FW-17-03-G-D-085-155"
+			(property "MPN" "CLP-117-02-G-D-BE"
 				(at 5.08 -41.91 0)
 				(show_name)
 				(effects
@@ -546,7 +173,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FW-xx-03-G-D-085-155"
+			(property "Series" "CLP-1xx-02-G-D-BE"
 				(at 5.08 -59.69 0)
 				(show_name)
 				(effects
@@ -557,7 +184,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FW-17-03-G-D-085-155"
+			(property "Symbol Name" "J_CLP-117-02-G-D-BE"
 				(at 5.08 -62.23 0)
 				(show_name)
 				(effects
@@ -568,7 +195,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-17-03-G-D-085-155"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-117-02-G-D-BE"
 				(at 5.08 -64.77 0)
 				(show_name)
 				(effects
@@ -590,7 +217,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FW-17-03-G-D-085-155_0_0"
+			(symbol "J_CLP-117-02-G-D-BE_0_0"
 				(pin unspecified line
 					(at -5.08 20.32 0)
 					(length 2.54)
@@ -1204,7 +831,7 @@
 					)
 				)
 			)
-			(symbol "J_FW-17-03-G-D-085-155_1_0"
+			(symbol "J_CLP-117-02-G-D-BE_1_0"
 				(rectangle
 					(start -2.54 22.86)
 					(end 2.54 -22.86)
@@ -2625,6 +2252,752 @@
 				(rectangle
 					(start -2.54 43.18)
 					(end 2.54 -43.18)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CONNECTORS_FW-xx-05-F-D-248-160_DATA_BASE:J_FW-04-05-F-D-248-160"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-04-05-F-D-248-160"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-04-05-F-D-248-160"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1mheflh*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0MTUxODQkbzckZzEkdDE3NTk0MTc0NDAkajYwJGwwJGgw"
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-05-F-D-248-160 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-04-05-F-D-248-160"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "4"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-05-F-D-248-160"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-04-05-F-D-248-160"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-05-F-D-248-160"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -50.8 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-04-05-F-D-248-160_0_0"
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FW-04-05-F-D-248-160_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CONNECTORS_FW-xx-05-G-D-470-160_DATA_BASE:J_FW-04-05-G-D-470-160"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FW-04-05-G-D-470-160"
+				(at 5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:FW-04-05-G-D-470-160"
+				(at 5.08 -10.16 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*dqfgvk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk3NjQxNTMkbzEyJGcwJHQxNzU5NzY1NzUzJGo2MCRsMCRoMA.."
+				(at 5.08 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec FW-xx-05-G-D-470-160 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+				(at 5.08 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Gold"
+				(at 5.08 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "FW-04-05-G-D-470-160"
+				(at 5.08 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -30.48 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -33.02 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -35.56 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "4"
+				(at 5.08 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -40.64 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "FW-xx-05-G-D-470-160"
+				(at 5.08 -43.18 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_FW-04-05-G-D-470-160"
+				(at 5.08 -45.72 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-05-G-D-470-160"
+				(at 5.08 -48.26 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -50.8 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_FW-04-05-G-D-470-160_0_0"
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_FW-04-05-G-D-470-160_1_0"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -7945,7 +8318,7 @@
 		(uuid "fc07a584-afda-482f-aa31-96625cca5104")
 	)
 	(symbol
-		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-17-03-G-D-085-155")
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-117-02-G-D-BE")
 		(at 101.6 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7962,7 +8335,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-17-03-G-D-085-155"
+		(property "Value" "CLP-117-02-G-D-BE"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -7970,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-17-03-G-D-085-155"
+		(property "Footprint" "connector_footprints:CLP-117-02-G-D-BE"
 			(at 106.68 166.37 0)
 			(show_name yes)
 			(effects
@@ -7981,7 +8354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
 			(at 106.68 168.91 0)
 			(show_name yes)
 			(effects
@@ -7992,7 +8365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  17 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  17 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 106.68 171.45 0)
 			(show_name yes)
 			(effects
@@ -8014,7 +8387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Contact Plating" "Gold"
+		(property "Contact Plating" "Tin"
 			(at 106.68 176.53 0)
 			(show_name yes)
 			(effects
@@ -8036,7 +8409,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-17-03-G-D-085-155"
+		(property "MPN" "CLP-117-02-G-D-BE"
 			(at 106.68 181.61 0)
 			(show_name yes)
 			(effects
@@ -8113,7 +8486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
+		(property "Series" "CLP-1xx-02-G-D-BE"
 			(at 106.68 199.39 0)
 			(show_name yes)
 			(effects
@@ -8124,7 +8497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-17-03-G-D-085-155"
+		(property "Symbol Name" "J_CLP-117-02-G-D-BE"
 			(at 106.68 201.93 0)
 			(show_name yes)
 			(effects
@@ -8135,7 +8508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-17-03-G-D-085-155"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-117-02-G-D-BE"
 			(at 106.68 204.47 0)
 			(show_name yes)
 			(effects
@@ -10040,7 +10413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-04-03-G-D-085-155")
+		(lib_id "CONNECTORS_FW-xx-05-G-D-470-160_DATA_BASE:J_FW-04-05-G-D-470-160")
 		(at 101.6 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10057,7 +10430,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-04-03-G-D-085-155"
+		(property "Value" "FW-04-05-G-D-470-160"
 			(at 101.6 63.5 0)
 			(effects
 				(font
@@ -10065,7 +10438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-04-03-G-D-085-155"
+		(property "Footprint" "connector_footprints:FW-04-05-G-D-470-160"
 			(at 106.68 82.55 0)
 			(show_name yes)
 			(effects
@@ -10076,7 +10449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*dqfgvk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk3NjQxNTMkbzEyJGcwJHQxNzU5NzY1NzUzJGo2MCRsMCRoMA.."
 			(at 106.68 85.09 0)
 			(show_name yes)
 			(effects
@@ -10087,7 +10460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+		(property "Description" "Samtec FW-xx-05-G-D-470-160 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 			(at 106.68 87.63 0)
 			(show_name yes)
 			(effects
@@ -10131,7 +10504,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-04-03-G-D-085-155"
+		(property "MPN" "FW-04-05-G-D-470-160"
 			(at 106.68 97.79 0)
 			(show_name yes)
 			(effects
@@ -10208,7 +10581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
+		(property "Series" "FW-xx-05-G-D-470-160"
 			(at 106.68 115.57 0)
 			(show_name yes)
 			(effects
@@ -10219,7 +10592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-04-03-G-D-085-155"
+		(property "Symbol Name" "J_FW-04-05-G-D-470-160"
 			(at 106.68 118.11 0)
 			(show_name yes)
 			(effects
@@ -10230,7 +10603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-03-G-D-085-155"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-05-G-D-470-160"
 			(at 106.68 120.65 0)
 			(show_name yes)
 			(effects
@@ -10352,7 +10725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-04-03-G-D-085-155")
+		(lib_id "CONNECTORS_FW-xx-05-F-D-248-160_DATA_BASE:J_FW-04-05-F-D-248-160")
 		(at 304.8 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -10370,7 +10743,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-04-03-G-D-085-155"
+		(property "Value" "FW-04-05-F-D-248-160"
 			(at 304.8 63.5 0)
 			(effects
 				(font
@@ -10378,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-04-03-G-D-085-155"
+		(property "Footprint" "connector_footprints:FW-04-05-F-D-248-160"
 			(at 309.88 62.23 0)
 			(show_name yes)
 			(effects
@@ -10389,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1mheflh*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk0MTUxODQkbzckZzEkdDE3NTk0MTc0NDAkajYwJGwwJGgw"
 			(at 309.88 59.69 0)
 			(show_name yes)
 			(effects
@@ -10400,7 +10773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+		(property "Description" "Samtec FW-xx-05-F-D-248-160 series,  4 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
 			(at 309.88 57.15 0)
 			(show_name yes)
 			(effects
@@ -10444,7 +10817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-04-03-G-D-085-155"
+		(property "MPN" "FW-04-05-F-D-248-160"
 			(at 309.88 46.99 0)
 			(show_name yes)
 			(effects
@@ -10521,7 +10894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
+		(property "Series" "FW-xx-05-F-D-248-160"
 			(at 309.88 29.21 0)
 			(show_name yes)
 			(effects
@@ -10532,7 +10905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-04-03-G-D-085-155"
+		(property "Symbol Name" "J_FW-04-05-F-D-248-160"
 			(at 309.88 26.67 0)
 			(show_name yes)
 			(effects
@@ -10543,7 +10916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-03-G-D-085-155"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-04-05-F-D-248-160"
 			(at 309.88 24.13 0)
 			(show_name yes)
 			(effects
