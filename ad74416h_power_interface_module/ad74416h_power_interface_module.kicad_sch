@@ -846,7 +846,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-133-04-L-DH"
+		(symbol "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE"
 			(pin_names
 				(offset 0.254)
 			)
@@ -862,7 +862,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FTSH-133-04-L-DH"
+			(property "Value" "CLP-133-02-G-D-BE"
 				(at 5.08 -44.45 0)
 				(effects
 					(font
@@ -871,7 +871,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FTSH-133-04-L-DH"
+			(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
 				(at 5.08 -46.99 0)
 				(show_name)
 				(effects
@@ -882,7 +882,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
 				(at 5.08 -49.53 0)
 				(show_name)
 				(effects
@@ -893,7 +893,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FTSH-1xx-04-L-DH series,  33 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 				(at 5.08 -52.07 0)
 				(show_name)
 				(effects
@@ -937,7 +937,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FTSH-133-04-L-DH"
+			(property "MPN" "CLP-133-02-G-D-BE"
 				(at 5.08 -62.23 0)
 				(show_name)
 				(effects
@@ -959,7 +959,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Angle" "Horizontal"
+			(property "Mounting Angle" "Vertical"
 				(at 5.08 -67.31 0)
 				(show_name)
 				(effects
@@ -1014,7 +1014,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FTSH-1xx-04-L-DH"
+			(property "Series" "CLP-1xx-02-G-D-BE"
 				(at 5.08 -80.01 0)
 				(show_name)
 				(effects
@@ -1025,7 +1025,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FTSH-133-04-L-DH"
+			(property "Symbol Name" "J_CLP-133-02-G-D-BE"
 				(at 5.08 -82.55 0)
 				(show_name)
 				(effects
@@ -1036,7 +1036,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-133-04-L-DH"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
 				(at 5.08 -85.09 0)
 				(show_name)
 				(effects
@@ -1058,7 +1058,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FTSH-133-04-L-DH_0_0"
+			(symbol "J_CLP-133-02-G-D-BE_0_0"
 				(pin unspecified line
 					(at -5.08 40.64 0)
 					(length 2.54)
@@ -2248,7 +2248,7 @@
 					)
 				)
 			)
-			(symbol "J_FTSH-133-04-L-DH_1_0"
+			(symbol "J_CLP-133-02-G-D-BE_1_0"
 				(rectangle
 					(start -2.54 43.18)
 					(end 2.54 -43.18)
@@ -8778,7 +8778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS_FTSH-1xx-04-L-DH_DATA_BASE:J_FTSH-133-04-L-DH")
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
 		(at 304.8 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8795,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Value" "FTSH-133-04-L-DH"
+		(property "Value" "CLP-133-02-G-D-BE"
 			(at 304.8 114.3 0)
 			(effects
 				(font
@@ -8803,7 +8803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FTSH-133-04-L-DH"
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
 			(at 309.88 207.01 0)
 			(show_name yes)
 			(effects
@@ -8814,7 +8814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf?_gl=1*uwyfuk*_gcl_au*OTQ3NjE2MTIwLjE3NTQ5MDMyODE.*_ga*NzIxODQzNjU3LjE3NTQ5MDMyODI.*_ga_3KFNZC07WW*czE3NTk5OTE3NDIkbzE1JGcxJHQxNzU5OTkxODU5JGo4JGwwJGgw"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
 			(at 309.88 209.55 0)
 			(show_name yes)
 			(effects
@@ -8825,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FTSH-1xx-04-L-DH series,  33 positions connector,  1.27 mm pitch,  Black,  Horizontal mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
 			(at 309.88 212.09 0)
 			(show_name yes)
 			(effects
@@ -8869,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FTSH-133-04-L-DH"
+		(property "MPN" "CLP-133-02-G-D-BE"
 			(at 309.88 222.25 0)
 			(show_name yes)
 			(effects
@@ -8891,7 +8891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Angle" "Horizontal"
+		(property "Mounting Angle" "Vertical"
 			(at 309.88 227.33 0)
 			(show_name yes)
 			(effects
@@ -8946,7 +8946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FTSH-1xx-04-L-DH"
+		(property "Series" "CLP-1xx-02-G-D-BE"
 			(at 309.88 240.03 0)
 			(show_name yes)
 			(effects
@@ -8957,7 +8957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FTSH-133-04-L-DH"
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
 			(at 309.88 242.57 0)
 			(show_name yes)
 			(effects
@@ -8968,7 +8968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-133-04-L-DH"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
 			(at 309.88 245.11 0)
 			(show_name yes)
 			(effects
